@@ -12,7 +12,7 @@ function Favorite() {
                         <Contactcard
                             name={element.name}
                             mobile={element.mobile}
-                            isFav={element.isFav}
+                            isFav={element.isFav?1:0}
                             id={element.id} 
                         />)
                 })

@@ -23,7 +23,7 @@ function Recent() {
                     return  (<Contactcard
                     name={currcontact.name}
                     mobile={currcontact.mobile}
-                    isFav={currcontact.isFav}
+                    isFav={currcontact.isFav?1:0}
                     id={currcontact.id} 
                 />)
 
